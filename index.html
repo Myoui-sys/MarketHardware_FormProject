@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Place Hardware</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h3>Hardware Market</h3>
+    </div>
+    <div class="form-container">
+      <div class="form-header">
+        <p>Formulário</p>
+      </div>
+      <div class="form-body">
+        <h1 class="form-title">Venda seu Hardware</h1>
+        <p>
+          Venda produtos usados ou novos de Hardware, Computador ou Notebook
+        </p>
+        <p style="font-size: 10px;">
+          Atenção: Não precisa preencher todos os campos de informações, apenas os que você possui e/ou quer vender.
+          <br>
+          Faça kits de hardware caso não possua completo, como por exemplo: Placa mãe + Processador + Memória RAM ou
+          apenas venda uma peça por vez.
+        </p>
+        <form>
+          <div class="box-input">
+            <label for="title">Título do anúncio <span class="required-field">*</span></label>
+            <input type="text" id="title" name="title" class="block"
+              placeholder="Ex: Computador Gamer i7 16GB RTX 2060 SSD" minlength="1" maxlength="55" required />
+          </div>
+          <div class="box-input">
+            <label for="price">Preço (R$) <span class="required-field">*</span></label>
+            <input type="number" id="price" name="price" class="block" placeholder="Defina o preço" required />
+          </div>
+          <div class="box-input">
+            <label for="description">Descrição <span class="required-field">*</span></label>
+            <textarea id="description" name="description" rows="5" class="block"
+              placeholder="Informe detalhes dos produtos, por exemplo: estado de conservação, se tem garantia, marca do Notebook, etc."
+              minlength="1" maxlength="500" required></textarea>
+          </div>
+          <!-- Tipo de Hardware -->
+          <div class="radio-group">
+            <p>Tipo de Hardware:</p>
+            <input type="radio" id="pc" name="hardware_type" value="pc" required />
+            <label for="pc">Computador</label>
+            <input type="radio" id="notebook" name="hardware_type" value="notebook" required />
+            <label for="notebook">Notebook</label>
+            <input type="radio" id="hardware" name="hardware_type" value="hardware" required />
+            <label for="hardware">Peça(s) de Hardware</label>
+          </div>
+          <!-- Tipo de venda -->
+          <div class="radio-group">
+            <p>Tipo de venda:</p>
+            <input type="radio" id="new" name="sale_type" value="new" required />
+            <label for="new">Novo</label>
+            <input type="radio" id="used" name="sale_type" value="used" required />
+            <label for="used">Usado</label>
+            <input type="radio" id="semi-new" name="sale_type" value="semi-new" required />
+            <label for="semi-new">Semi-novo</label>
+          </div>
+          <div class="box-input">
+            <label for="cpu">Processador: </label>
+            <input type="text" id="cpu" name="cpu" class="block" placeholder="Ex: Intel Core i7 10700K" minlength="1"
+              maxlength="35" />
+          </div>
+          <div class="box-input">
+            <label for="cooler">Cooler: </label>
+            <input type="text" id="cooler" name="cooler" class="block" placeholder="Ex: Cooler Master Hyper 212"
+              minlength="1" maxlength="35" />
+          </div>
+          <div class="box-input">
+            <label for="motherboard">Placa mãe: </label>
+            <input type="text" id="motherboard" name="motherboard" class="block"
+              placeholder="Ex: ASUS ROG Strix B550-F Gaming" minlength="1" maxlength="45" />
+          </div>
+          <div class="box-input">
+            <label for="ram">Memória RAM: </label>
+            <input type="text" id="ram" name="ram" class="block" placeholder="Ex: Kingston 2x8 (16GB) DDR4 3200MHz "
+              minlength="1" maxlength="35" />
+          </div>
+          <div class="box-input">
+            <label for="gpu">Placa de vídeo: </label>
+            <input type="text" id="gpu" name="gpu" class="block" placeholder="Ex: Gigabyte NVIDIA GeForce RTX 2060"
+              minlength="1" maxlength="45" />
+          </div>
+          <div class="box-input">
+            <label for="ssd">SSD: </label>
+            <input type="text" id="ssd" name="ssd" class="block" placeholder="Ex: Kingston A2000 500GB NVMe"
+              minlength="1" maxlength="35" />
+          </div>
+          <div class="box-input">
+            <label for="hdd">HDD: </label>
+            <input type="text" id="hdd" name="hdd" class="block" placeholder="Ex: Seagate Barracuda 1TB" minlength="1"
+              maxlength="35" />
+          </div>
+          <div class="box-input">
+            <label for="power_supply">Fonte: </label>
+            <input type="text" id="power_supply" name="power_supply" class="block"
+              placeholder="Ex: Corsair 650W 80 Plus Bronze" minlength="1" maxlength="50" />
+          </div>
+          <div class="box-input">
+            <label for="case">Gabinete: </label>
+            <input type="text" id="case" name="case" class="block" placeholder="Ex: Cooler Master MasterBox Q300L"
+              minlength="1" maxlength="50" />
+          </div>
+          <div class="optional-box">
+            <p>Opcionais:</p>
+            <ul class="optional-list">
+              <li>
+                <input type="checkbox" id="fans" name="optional[]" value="fans" />
+                <label for="fans">Fans RGB</label>
+                <input type="text" id="fans_text" name="fans_text" class="block"
+                  placeholder="Ex: Rise Mode 3 Fans RGB 120mm" minlength="1" maxlength="50" />
+              </li>
+              <li>
+                <input type="checkbox" id="rede" name="optional[]" value="rede">
+                <label for="rede">Placa de Rede Wi-fi</label>
+                <input type="text" id="rede_text" name="rede_text" class="block"
+                  placeholder="Ex: TP-Link Adaptador Archer TX20E PCIe WiFi6 AX1800" minlength="1" maxlength="70">
+              </li>
+              <li>
+                <input type="checkbox" id="monitor" name="optional[]" value="monitor" />
+                <label for="monitor">Monitor</label>
+                <input type="text" id="monitor_text" name="monitor_text" class="block" placeholder="Ex: LG 24'' Full HD"
+                  minlength="1" maxlength="50" />
+              </li>
+              <li>
+                <input type="checkbox" id="keyboard" name="optional[]" value="keyboard" />
+                <label for="keyboard">Teclado</label>
+                <input type="text" id="keyboard_text" name="keyboard_text" class="block"
+                  placeholder="Ex: Logitech G Pro X" minlength="1" maxlength="40" />
+              </li>
+              <li>
+                <input type="checkbox" id="mouse" name="optional[]" value="mouse" />
+                <label for="mouse">Mouse</label>
+                <input type="text" id="mouse_text" name="mouse_text" class="block" placeholder="Ex: Razer DeathAdder V2"
+                  minlength="1" maxlength="40" />
+              </li>
+            </ul>
+          </div>
+          <div class="optional-box">
+            <ul class="optional-list">
+              <li>
+                <input type="checkbox" id="headset" name="optional[]" value="headset" />
+                <label for="headset">Headset</label>
+                <input type="text" id="headset_text" name="headset_text" class="block" placeholder="Ex: HyperX Cloud II"
+                  minlength="1" maxlength="40" />
+              </li>
+              <li>
+                <input type="checkbox" id="webcam" name="optional[]" value="webcam" />
+                <label for="webcam">Webcam</label>
+                <input type="text" id="webcam_text" name="webcam_text" class="block" placeholder="Ex: Logitech C920"
+                  minlength="1" maxlength="40" />
+              </li>
+              <li>
+                <input type="checkbox" id="speakers" name="optional[]" value="speakers" />
+                <label for="speakers">Caixas de Som</label>
+                <input type="text" id="speakers_text" name="speakers_text" class="block" placeholder="Ex: JBL Flip 5"
+                  minlength="1" maxlength="40" />
+              </li>
+              <li>
+                <input type="checkbox" id="microphone" name="optional[]" value="microphone" />
+                <label for="microphone">Microfone</label>
+                <input type="text" id="microphone_text" name="microphone_text" class="block" placeholder="Ex: Blue Yeti"
+                  minlength="1" maxlength="40" />
+              </li>
+              <li>
+                <input type="checkbox" id="other" name="optional[]" value="other" />
+                <label for="other">Outro</label>
+                <input type="text" id="other_text" name="other_text" class="block" placeholder="Especifique"
+                  minlength="1" maxlength="35" />
+              </li>
+            </ul>
+          </div>
+          <div class="box-input">
+            <label for="purchase_date">Data de publicação: <span class="required-field">*</span></label>
+            <input type="date" id="purchase_date" name="purchase_date" class="block" required />
+          </div>
+          <div class="box-input">
+            <p>Fotos dos produtos: <span class="required-field">*</span></p>
+            <input type="file" multiple id="image" name="image" class="block" accept="image/*" required />
+          </div>
+          <input type="submit" value="Enviar" class="btn-submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
