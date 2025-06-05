@@ -1,28 +1,38 @@
-# 🧾 MarketHardware Form Project
+# MarketHardware_FormProject — Projeto Web Estático 🛒
 
-Projeto de formulário criado como parte dos estudos em desenvolvimento front-end. O objetivo principal é praticar HTML e CSS na construção de uma interface limpa, acessível e funcional para um formulário de um Market Place chamado **MarketHardware**.
+[![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)](https://github.com/Myoui-sys/MarketHardware_FormProject)  
+[![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![Contribuições](https://img.shields.io/badge/contribui%C3%A7%C3%B5es-bem--vindas-brightgreen)](https://github.com/Myoui-sys/MarketHardware_FormProject/issues)  
 
-🔗 **Acesse o projeto online:**  
-👉 [Market Hardware](https://myoui-sys.github.io/MarketHardware_FormProject/)
+Projeto de formulário web estático criado para o site **MarketHardware**. Desenvolvido com **HTML** e **CSS** para prática de estruturação de formulários, validação básica e design responsivo.
 
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧾 Descrição
 
-- **HTML5**  
-- **CSS3**  
+O **MarketHardware_FormProject** é um formulário funcional e estilizado para coleta de informações de clientes interessados em produtos de hardware.  
+Criado para praticar marcação semântica, acessibilidade e design responsivo com CSS puro.
 
-## 📄 Descrição
+> 📌 Projeto finalizado como exercício educacional e prática em front-end.
+> 🔄 Futuramente, poderá ser expandido com novas funcionalidades ou tecnologias.
+---
 
-O projeto consiste em uma página com um formulário de contato que simula uma inscrição para que o usuário publique o produto que deseja vender. A estrutura foi pensada para garantir:
+## 🌟 Características
 
-- Organização semântica dos elementos
-- Estilo visual com identidade moderna e coesa
-- Experiência amigável para o usuário
+- 📝 **Formulário Completo:** Campos variados para coleta de dados importantes.  
+- 🧼 **Código Limpo:** Uso de tags semânticas e CSS modular.  
+- 🔧 **Fácil de Integrar:** Estrutura pronta para uso em projetos maiores.
 
-### Funcionalidades
+---
 
-- Formulário com campos essenciais para simulação de aba da publicação da venda
-- Validações básicas de campos usando HTML
-- Layout harmonioso
+## 🚀 Deploy
 
+Você pode visualizar o projeto online aqui:
 
+👉 **[Projeto on-line](https://myoui-sys.github.io/MarketHardware_FormProject/)**
+
+## ⭐ Sobre mim
+Olá! Estou aprendendo Desenvolvimento Front-End e graduando em Análise e Desenvolvimento de Sistemas.
+
+Estou em constante aprendizado, sinta-se à vontade para contribuir e sugerir melhorias para meus projetos.
