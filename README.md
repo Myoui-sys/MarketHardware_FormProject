@@ -8,7 +8,8 @@ Projeto de formulário web estático criado para o site **MarketHardware**. Dese
 
 ## 🧾 Descrição
 
-O **MarketHardware_FormProject** é um formulário funcional e estilizado para coleta de informações de clientes interessados em produtos de hardware.  
+O **MarketHardware_FormProject** é um formulário funcional e estilizado para preenchimento de informações de venda de produtos de hardware.  
+
 Criado para praticar marcação semântica, acessibilidade e design responsivo com CSS puro.
 
 > 📌 Projeto finalizado como exercício educacional e prática em front-end.
