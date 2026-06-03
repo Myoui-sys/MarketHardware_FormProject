@@ -29,8 +29,3 @@ Criado para praticar marcação semântica, acessibilidade e design responsivo c
 Você pode visualizar o projeto online aqui:
 
 👉 **[Projeto on-line](https://myoui-sys.github.io/MarketHardware_FormProject/)**
-
-## ⭐ Sobre mim
-Olá! Estou aprendendo Desenvolvimento Front-End e graduando em Análise e Desenvolvimento de Sistemas.
-
-Estou em constante aprendizado, sinta-se à vontade para contribuir e sugerir melhorias para meus projetos.
